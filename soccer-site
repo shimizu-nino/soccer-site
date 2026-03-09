@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joel Soccer Club</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f9ff;
+}
+
+header{
+background:#4bb3ff;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:40px;
+margin:0;
+}
+
+header p{
+font-size:18px;
+}
+
+.cta{
+background:white;
+padding:15px 30px;
+display:inline-block;
+margin-top:20px;
+border-radius:30px;
+color:#4bb3ff;
+font-weight:bold;
+text-decoration:none;
+}
+
+section{
+padding:60px 20px;
+max-width:900px;
+margin:auto;
+}
+
+h2{
+color:#4bb3ff;
+text-align:center;
+}
+
+.features{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+margin-top:30px;
+}
+
+.box{
+flex:1;
+min-width:250px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.price{
+background:#4bb3ff;
+color:white;
+text-align:center;
+padding:50px 20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Joel Soccer Club</h1>
+<p>楽しいを応援するサッカー教室</p>
+<a class="cta" href="#">無料体験はこちら</a>
+</header>
+
+<section>
+<h2>こんな子におすすめ</h2>
+
+<div class="features">
+
+<div class="box">
+<h3>初心者OK</h3>
+<p>サッカーが初めてでも安心。基礎から楽しく学びます。</p>
+</div>
+
+<div class="box">
+<h3>楽しく成長</h3>
+<p>勝つことよりも、まずはサッカーを好きになることを大切にします。</p>
+</div>
+
+<div class="box">
+<h3>小学生向け</h3>
+<p>小学校低学年でも参加できるやさしい練習メニュー。</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Joel Soccer Clubの特徴</h2>
+
+<p>
+Joel Soccer Clubは「楽しむ」を大切にしたサッカー教室です。  
+初心者の子どもたちでも安心して参加できるよう、  
+やさしく丁寧に指導します。
+</p>
+
+<p>
+サッカーを通して  
+・自信  
+・仲間との協力  
+・挑戦する気持ち  
+を育てます。
+</p>
+
+</section>
+
+<section class="price">
+
+<h2>無料体験受付中</h2>
+
+<p>まずは気軽に体験してください！</p>
+
+<a class="cta" href="#">体験申し込み</a>
+
+</section>
+
+<footer>
+
+<p>Joel Soccer Club</p>
+<p>© 2026 Joel Soccer</p>
+
+</footer>
+
+</body>
+</html>
